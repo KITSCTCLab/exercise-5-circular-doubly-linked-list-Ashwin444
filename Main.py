@@ -12,6 +12,9 @@ class DoublyCircularLinkedList:
 
     def add_at_tail(self, data) -> bool:
         # Write code here
+        self.next = bool
+        bool.previous = tail
+        tail = bool
 
     def add_at_head(self, data) -> bool:
         # Write code here
